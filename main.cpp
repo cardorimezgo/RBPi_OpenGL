@@ -1,7 +1,7 @@
 #include "ofMain.h"
 #include "ofApp.h"
 
-//========================================================================
+//================== Running OpenGL on RBPi 4======================================================
 int main( ){
 
 #ifdef OF_TARGET_OPENGLES
@@ -9,7 +9,7 @@ int main( ){
 	settings.glesVersion = 2;
 #else
 	ofGLWindowSettings settings;
-	settings.setGLVersion(3, 2);
+	settings.setGLVersion(3, 1); // Set OpenGL version to 3.1
 #endif
 	settings.setSize(1920, 1080);
 	
