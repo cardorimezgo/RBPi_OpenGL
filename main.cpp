@@ -12,7 +12,7 @@ int main( ){
 	settings.setGLVersion(3, 2);
 #endif
 	settings.setSize(1920, 1080);
-	//settings.setSize(720, 1280);
+	
 	settings.windowMode = OF_FULLSCREEN; //can also be OF_WINDOW
 
 	auto window = ofCreateWindow(settings);
@@ -21,4 +21,3 @@ int main( ){
 	ofRunMainLoop();
 
 }
-// TODO:
