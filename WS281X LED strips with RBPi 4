@@ -1,0 +1,24 @@
+///creation of virtual environment for ws281x libraries installation /// 
+
+-python3 -m venv myenv               # Create a virtual environment named 'myenv'
+-source myenv/bin/activate           # Activate the virtual environment
+
+/// installation of libraries ///
+
+-pip install rpi_ws281x adafruit-circuitpython-neopixel
+-pip install adafruit-blinka --force-reinstall
+
+/// Exiting the Virtual Environment ///
+
+-deactivate
+
+/// Run script ///
+
+-python your_script.py
+
+
+/// References ///
+
+https://core-electronics.com.au/guides/raspberry-pi/fully-addressable-rgb-raspberry-pi/
+
+https://learn.adafruit.com/neopixels-on-raspberry-pi?view=all
