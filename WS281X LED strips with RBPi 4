@@ -8,6 +8,14 @@
 -pip install rpi_ws281x adafruit-circuitpython-neopixel
 -pip install adafruit-blinka --force-reinstall
 
+
+/// Activate the Virtual Environment ///
+source myenv/bin/activate
+
+/// Run program ///
+when the virtual environment is activated:
+sudo /home/cardo/myenv/bin/python home/cardo/Documents/led_control.py
+
 /// Exiting the Virtual Environment ///
 
 -deactivate
